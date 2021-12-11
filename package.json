@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prod": "NODE_ENV=production webpack --watch",
-    "dev": "webpack --watch"
+    "start": "webpack-dev-server --mode development --open",
+    "build:prod": "NODE_ENV=production webpack --watch",
+    "build:dev": "webpack --watch"
   },
   "author": "",
   "license": "ISC",
